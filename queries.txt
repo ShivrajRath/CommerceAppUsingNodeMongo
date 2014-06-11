@@ -1,0 +1,7 @@
+db.productlist.insert({'productName' : 'Philips QT4005 Trimmer','productDescription' : 'The Philips QT4005 allows you to select and lock-in length settings from 0.5mm to 10mm, with a 0.5mm precision. Simply turn the wheel, choose the perfect length setting and get a precise trim every time.','rating' : '4.1','stockstatus' : 'yes','price' : '1195'})
+
+
+db.productlist.insert({'productName' : 'Philips HP 8112 Hair Dryer','productDescription' : 'Enjoy a quick blow dry with the Philips hair dryer that is easy to use and compact in size. Use this swift and efficient hair dryer, while rushing before an important meeting or party.','rating' : '3.9','stockstatus' : 'no','price' : '745'})
+
+
+db.productlist.insert({'productName' : 'Panasonic EH-ND13 Hair Dryer','productDescription' : 'Look no less than a diva by styling your hair in such a way that everybody looks at you twice. Get the Panasonic EH-ND13 Hair Dryer which has been designed to make styling and drying your hair a cakewalk.','rating' : '4.6','stockstatus' : 'no','price' : '1100'})

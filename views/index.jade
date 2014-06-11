@@ -1,0 +1,42 @@
+extends layout
+
+block content
+	h1= title
+	p A demo of commerce application using node
+
+	// Wrapper starts
+	
+	#Wrapper
+
+		// Product list starts
+		
+		h2 Products
+		#productList
+			table
+				thead
+					th Product Name   
+					th Product Description   
+					th Rating (1-5)
+					th Stock Status
+					th Price
+				tbody
+		//Product List ends
+
+		// Add user starts
+		br
+		h2 Add a product
+		#addProduct
+			fieldset
+				input#inputProductName(type='text', placeholder='Product Name')
+				input#inputProductDescription(type='text', placeholder='Product Description')
+				br
+				input#inputProductRating(type='number', placeholder='Rating (1-5)')
+				input#inputProductInStock(type='text', placeholder='In stock?')
+				br
+				input#inputProductPrice(type='text', placeholder='Product Price')
+				br
+				br
+				button#btnAddProduct Add Product		
+		// Add user ends
+
+	// Wrapper ends
